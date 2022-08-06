@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #366141;
+}
+
+.container {
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    flex-direction: column;
+}
+kbd {
+    display: inline-block;
+    padding: 160px 28px 40px;
+    border: 1px solid gray;
+}
+
+.white-keys {
+    background-color: white;
+}
+
+.black-keys {
+    color: white;
+    background-color:   black;
+    margin: auto;
+    display: inline-block;
+}
